@@ -3,6 +3,12 @@
   src: url('assets/FREEFATFONT-Regular.otf')
 }
 
+@font-face {
+  font-family:'Comfortaa';
+  src: url('assets/Comfortaa-Regular.ttf')
+}
+
+
 h {
   font-family: 'FreeFat';
   font-size: 10vw;
