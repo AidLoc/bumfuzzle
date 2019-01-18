@@ -23,17 +23,14 @@ h {
 
 
 body {
-  background-image: url('bg3.jpg');
+  background-image: url('images/bg3.jpg');
   background-size: cover;
-}
-
-
 }
 
 div {
   font-family: 'Comfortaa';
   color: floralwhite;
-  font-size: 1vw;
+  font-size: 1.5vw;
   text-align: center;
   margin: auto;
   width: 33%;
