@@ -6,11 +6,11 @@
 
 @font-face {
     font-family:'Comfortaa';
-    src: url('assets/Comfortaa-Regular.ttf')
+    src: url('assets/Comfortaa-Regular.ttf');
 }
 
 
-head {
+h {
     font-family: 'FreeFat';
     font-size: 18vw;
     color: aquamarine;
