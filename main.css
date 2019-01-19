@@ -13,7 +13,7 @@
 h {
     font-family: 'FreeFat';
     font-size: 18vw;
-    color: aquamarine;
+    color: #FFE1E6;
     text-align: center;
     text-shadow: 5px 5px #000000;
     display: block;
@@ -48,10 +48,10 @@ a {
 
 .subhead {
     font-family: 'Comfortaa';
-    color: ghostwhite;
+    color: black;
     font-size: 4vw;
     text-align: center;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1px 1px #ffffff;
     margin: auto;
     margin-top: .5em;
 
@@ -69,10 +69,12 @@ a {
 h2 {
     font-family: 'Comfortaa';
     font-size: 3vw;
+    color: #FFE1E6;
     text-align: center;
     margin: auto;
     margin-bottom: .5em;
-}
+    text-shadow: 1px 1px #000000;
+}         qew128
 
 
 
