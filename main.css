@@ -1,21 +1,25 @@
 @font-face {
-    font-family:'FreeFat';
-    src: url('assets/FREEFATFONT-Regular.otf')
+    font-family:'Playfair';
+    src: url('assets/PlayfairDisplay-Black.ttf')
 }
 
 
 @font-face {
-    font-family:'Comfortaa';
-    src: url('assets/Comfortaa-Regular.ttf')
+    font-family:'Raleway', bold;
+    src: url('assets/Raleway-Bold.ttf')
+}
+
+@font-face {
+    font-family:'Raleway', medium;
+    src: url('assets/Raleway-Medium.ttf')
 }
 
 
-head {
-    font-family: 'FreeFat';
+.head {
+    font-family: 'Playfair';
     font-size: 18vw;
-    color: aquamarine;
+    color: orange;
     text-align: center;
-    text-shadow: 5px 5px #000000;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +27,8 @@ head {
 
 
 body {
-    background-image: url('images/bg3.jpg');
+    background-image: url('images/bg5.jpg');
+    background-size: cover;
 }
 
 
@@ -32,26 +37,28 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
-    width: 70%;
+    height: auto;
+    width:70%;
+    border:25px solid orange;
 }
 
 
 a {
-    font-family: 'Comfortaa';
-    font-size: 1.4vw;
+    font-family:'Raleway', bold;
+    font-size: 1vw;
     color: ghostwhite;
     
 }
 
 
 .subhead {
-    font-family: 'Comfortaa';
+    font-family:'Raleway', bold;
     color: ghostwhite;
     font-size: 4vw;
     text-align: center;
-    text-shadow: 1px 1px #000000;
     margin: auto;
     margin-top: .5em;
+    margin-bottom: .3em;
 
 }
 
@@ -64,18 +71,20 @@ a {
 }
 
 
-h2 {
-    font-family: 'Comfortaa';
-    font-size: 3vw;
+.title {
+    font-family:'Raleway', bold;
+    color: ghostwhite;
+    font-size: 2vw;
     text-align: center;
     margin: auto;
     margin-bottom: .5em;
+    margin-top: 4em;
 }
 
 
 
 p {
-    font-family: 'Helvetica-light';
+    font-family:'Raleway', medium;
     text-align: justify;
     width: 70%;
     margin: auto;
