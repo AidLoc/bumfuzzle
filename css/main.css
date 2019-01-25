@@ -26,16 +26,6 @@
     margin-top: .5em;
 }
 
-.logo {
-    font-family: 'PlayfairDisplay-Black';
-    font-size: 5vw;
-    color: olive;
-    display: block;
-    margin-left: .5em;
-    margin-top: .5em;
-    text-decoration: underline overline;
-}
-
 
 
 body {
@@ -44,7 +34,13 @@ body {
 }
 
 
-img {
+.logo {
+    height: auto;
+    width:35%;
+}
+
+
+.screen {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -73,9 +69,6 @@ img {
     margin-right: auto;
     margin-bottom: 2em;
     padding: .5em;
-    /*background-color: whitesmoke;
-    border: 3px solid olive;
-    outline: 8px solid whitesmoke;*/
 
 }
 
