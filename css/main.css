@@ -1,22 +1,29 @@
+h1, h2, h3, h4 {
+    font-weight: normal;
+    
+    
+}
+
+
 @font-face {
     font-family:'PlayfairDisplay-Black';
-    src: url('assets/PlayfairDisplay-Black.ttf')
+    src: url('../assets/PlayfairDisplay-Black.ttf')
 }
 
 
 @font-face {
     font-family:'Raleway-Bold';
-    src: url('assets/Raleway-Bold.ttf')
+    src: url('../assets/Raleway-Bold.ttf')
 }
 
 @font-face {
     font-family:'Raleway-Medium';
-    src: url('assets/Raleway-Medium.ttf')
+    src: url('../assets/Raleway-Medium.ttf')
 }
 
 
 .head {
-    font-family: 'PlayfairDisplay-Black';
+    font-family: 'PlayfairDisplay-Black', "serif";
     font-size: 18vw;
     color: olive;
     text-align: center;
@@ -26,17 +33,36 @@
     margin-top: .5em;
 }
 
+.head:hover {
+    animation-name: woo;
+    animation-duration: 3s;
+}
 
+@keyframes woo {
+  10% {color: olive;}
+  20% {color: darkolivegreen;}
+  30% {color: forestgreen;}
+  40% {color: darkseagreen;}
+  50% {color: darkkhaki;}
+  60% {color: green;}
+  70% {color: lightgreen;}
+  80% {color: forestgreen;}
+  90% {color: darkolivegreen;}
+  100% {color: olive;}
+    
+    
+}
 
 body {
-    background-image: url('images/bg4.jpg');
+    background-image: url('../images/karel.jpg');
     background-size: cover;
 }
 
 
 .logo {
-    height: auto;
     width:35%;
+    margin-left: .5em;
+    margin-top: .5em;
 }
 
 
@@ -46,13 +72,13 @@ body {
     margin-right: auto;
     margin-bottom: 2em;
     height: auto;
-    width:65%;
+    width:55%;
     border:25px solid olive;
 }
 
 
 .subhead {
-    font-family:'Raleway-Bold';
+    font-family:'Raleway-Bold', "sans serif";
     color: black;
     font-size: 4vw;
     text-align: center;
@@ -64,11 +90,12 @@ body {
 
 
 .container {
-    width: 70%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2em;
-    padding: .5em;
+    background-color: rgba(248, 240, 219, 0.75);
+    padding: 10px 20px;
+    margin-bottom: 1em;
 
 }
 
@@ -78,17 +105,22 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 20em;
+    margin-bottom: 20vw;
     font-family:'Raleway-Medium';
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 
 a {
     color: black;
 }
 
+a:hover {
+    color: olive;
+}
+
+
 .title {
-    font-family:'Raleway-Medium';
+    font-family:'Raleway-Medium', "sans serif";
     color: black;
     font-size: 4vw;
     text-align: center;
@@ -100,8 +132,18 @@ a {
 
 
 p {
-    font-family:'Raleway-Medium';
+    font-family:'Raleway-Medium', "sans serif";
+    color: black;
     width: 100%;
     text-align: justify;
+    line-height: 24px;
+}
 
+footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family:'Raleway-Medium';
+    font-size: 1.25vw;
 }
