@@ -1,33 +1,45 @@
 @font-face {
-    font-family:'Playfair';
+    font-family:'PlayfairDisplay-Black';
     src: url('assets/PlayfairDisplay-Black.ttf')
 }
 
 
 @font-face {
-    font-family:'Raleway', bold;
+    font-family:'Raleway-Bold';
     src: url('assets/Raleway-Bold.ttf')
 }
 
 @font-face {
-    font-family:'Raleway', medium;
+    font-family:'Raleway-Medium';
     src: url('assets/Raleway-Medium.ttf')
 }
 
 
 .head {
-    font-family: 'Playfair';
+    font-family: 'PlayfairDisplay-Black';
     font-size: 18vw;
-    color: orange;
+    color: olive;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: .5em;
+}
+
+.logo {
+    font-family: 'PlayfairDisplay-Black';
+    font-size: 5vw;
+    color: olive;
+    display: block;
+    margin-left: .5em;
+    margin-top: .5em;
+    text-decoration: underline overline;
 }
 
 
+
 body {
-    background-image: url('images/bg5.jpg');
+    background-image: url('images/bg4.jpg');
     background-size: cover;
 }
 
@@ -36,24 +48,16 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     height: auto;
-    width:70%;
-    border:25px solid orange;
-}
-
-
-a {
-    font-family:'Raleway', bold;
-    font-size: 1vw;
-    color: ghostwhite;
-    
+    width:65%;
+    border:25px solid olive;
 }
 
 
 .subhead {
-    font-family:'Raleway', bold;
-    color: ghostwhite;
+    font-family:'Raleway-Bold';
+    color: black;
     font-size: 4vw;
     text-align: center;
     margin: auto;
@@ -64,31 +68,47 @@ a {
 
 
 .container {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 5em
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    padding: .5em;
+    /*background-color: whitesmoke;
+    border: 3px solid olive;
+    outline: 8px solid whitesmoke;*/
 
 }
 
+.nav {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20em;
+    font-family:'Raleway-Medium';
+    font-size: 1vw;
+}
+
+a {
+    color: black;
+}
 
 .title {
-    font-family:'Raleway', bold;
-    color: ghostwhite;
-    font-size: 2vw;
+    font-family:'Raleway-Medium';
+    color: black;
+    font-size: 4vw;
     text-align: center;
     margin: auto;
     margin-bottom: .5em;
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 
 
 p {
-    font-family:'Raleway', medium;
+    font-family:'Raleway-Medium';
+    width: 100%;
     text-align: justify;
-    width: 70%;
-    margin: auto;
-    padding: .5em;
-    
-    
+
 }
