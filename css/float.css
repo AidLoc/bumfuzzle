@@ -1,0 +1,26 @@
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+article {
+    width 70%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.float {
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 20px 10px 0;
+}

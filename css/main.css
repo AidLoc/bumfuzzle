@@ -1,7 +1,8 @@
-h1, h2, h3, h4 {
+* {
     font-weight: normal;
-    
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -21,19 +22,34 @@ h1, h2, h3, h4 {
     src: url('../assets/Raleway-Medium.ttf')
 }
 
+body {
+    background-image: url('../images/karel.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
-.head {
+.logo {
+    width:35%;
+    margin-left: .5em;
+    margin-top: .5em;
+}
+
+#home {
+    background-color: rgba(248, 240, 219, 0.75);
+    padding-bottom: 4vw;
+}
+
+
+.indexlogo {
     font-family: 'PlayfairDisplay-Black', "serif";
     font-size: 18vw;
     color: olive;
     text-align: center;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: .5em;
 }
 
-.head:hover {
+.indexlogo:hover {
     animation-name: woo;
     animation-duration: 3s;
 }
@@ -53,69 +69,36 @@ h1, h2, h3, h4 {
     
 }
 
-body {
-    background-image: url('../images/karel.jpg');
-    background-size: cover;
-}
-
-
-.logo {
-    width:35%;
-    margin-left: .5em;
-    margin-top: .5em;
-}
-
-
-.screen {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2em;
-    height: auto;
-    width:55%;
-    border:25px solid olive;
-}
-
-
 .subhead {
     font-family:'Raleway-Bold', "sans serif";
     color: black;
     font-size: 4vw;
     text-align: center;
     margin: auto;
-    margin-top: .5em;
-    margin-bottom: .3em;
-
+    padding: 2vw;
 }
 
-
-.container {
-    width: 55%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(248, 240, 219, 0.75);
-    padding: 10px 20px;
-    margin-bottom: 1em;
-
-}
 
 .nav {
-    width: 70%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 20vw;
     font-family:'Raleway-Medium';
     font-size: 1.25vw;
+    background-color: rgba(128, 128, 0, .5)
 }
 
 a {
     color: black;
+    padding: 1vw;
+    display: inline-block;
 }
 
 a:hover {
-    color: olive;
+    background-color: black;
+    color: white;
 }
 
 
@@ -129,7 +112,25 @@ a:hover {
     margin-top: 1em;
 }
 
+.screen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    height: auto;
+    width:70%;
+    border:25px solid olive;
+}
 
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(248, 240, 219, 0.75);
+    padding: 10px 20px;
+    margin-bottom: 1em;
+
+}
 
 p {
     font-family:'Raleway-Medium', "sans serif";
