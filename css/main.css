@@ -87,16 +87,17 @@ body {
     text-align: center;
     font-family:'Raleway-Medium';
     font-size: 1.25vw;
-    background-color: rgba(128, 128, 0, .5)
+    background-color: rgba(128, 128, 0, .5);
+    margin-bottom: 8vw;
 }
 
-a {
+.button {
     color: black;
     padding: 1vw;
     display: inline-block;
 }
 
-a:hover {
+.button:hover {
     background-color: black;
     color: white;
 }
