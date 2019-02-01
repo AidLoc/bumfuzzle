@@ -1,0 +1,38 @@
+section {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+
+#parent{
+    width: 50%;
+    background-color: rgba(20, 20, 20, 0.8);
+    padding: 1vw;
+    margin: 0 auto;
+    /* if parent positioned absolute/relative, absolute children will stay inside parent*/
+    position: absolute;
+}
+
+/* positioned against browser window, unaffected by hierarchy */
+#absolute{
+    background-color: crimson;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/* positioned based on it's "normal position" */
+#relative{
+    position: relative;
+    background-color: crimson;
+    right: -50px;
+}
