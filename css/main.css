@@ -78,30 +78,57 @@ body {
     padding: 2vw;
 }
 
-
 .nav {
-    width: 100%;
-    display: block;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    font-family:'Raleway-Medium';
-    font-size: 1.25vw;
     background-color: rgba(128, 128, 0, .5);
-    margin-bottom: 8vw;
+    
 }
 
-.button {
-    color: black;
-    padding: 1vw;
-    display: inline-block;
+.dropbtn {
+  font-family:'Raleway-Medium';
+  font-size: 1.25vw;
+  width: 10em;
+  background-color: rgba(128, 128, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-.button:hover {
-    background-color: black;
-    color: white;
+.dropdown {
+  display: inline-block;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(128, 128, 0, .5);
+  width: 10em;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family:'Raleway-Medium';
+  font-size: 1.25vw;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: olive}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: olive;
+}
 
 .title {
     font-family:'Raleway-Medium', "sans serif";
@@ -129,7 +156,7 @@ body {
     margin-right: auto;
     background-color: rgba(248, 240, 219, 0.75);
     padding: 10px 20px;
-    margin-bottom: 1em;
+    margin-bottom: 10em;
 
 }
 
