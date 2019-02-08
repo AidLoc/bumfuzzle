@@ -1,0 +1,63 @@
+@font-face {
+    font-family:'PlayfairDisplay-Black';
+    src: url('../assets/PlayfairDisplay-Black.ttf');
+}
+
+
+@font-face {
+    font-family:'Raleway-Bold';
+    src: url('../assets/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family:'Raleway-Medium';
+    src: url('../assets/Raleway-Medium.ttf');
+}
+
+html {
+    background: url(../images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.indexlogo {
+    font-family: 'PlayfairDisplay-Black';
+    font-size: 10vw;
+    text-align: center;
+    color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+article {
+    font-family: 'Raleway-Medium';
+    
+    
+}
+
+.box1 {
+    width: 20%;
+    background-color: rgba(120, 170, 200, 0.75);
+    padding: 10px 20px;
+    position: absolute;
+    left: 1250px;
+    top: 20px;
+
+}
+
+.box2 {
+    width: 20%;
+    background-color: rgba(120, 170, 200, 0.75);
+    padding: 10px 20px;
+    position: absolute;
+    right: 1250px;
+    bottom: 20px;
+
+}
+
+
+
+
