@@ -36,13 +36,13 @@ body {
 
 #home {
     background-color: rgba(248, 240, 219, 0.75);
-    padding-bottom: 4vw;
+    padding-bottom: 4vmax;
 }
 
 
 .indexlogo {
     font-family: 'PlayfairDisplay-Black', "serif";
-    font-size: 18vw;
+    font-size: 18vmax;
     color: olive;
     text-align: center;
     margin-left: auto;
@@ -72,16 +72,16 @@ body {
 .subhead {
     font-family:'Raleway-Bold', "sans serif";
     color: black;
-    font-size: 4vw;
+    font-size: 4vmax;
     text-align: center;
     margin: auto;
-    padding: 2vw;
+    padding: 2vmax;
 }
 
 .subhead2 {
     font-family:'Raleway-Medium', "sans serif";
     color: black;
-    font-size: 2vw;
+    font-size: 2vmax;
     text-align: center;
     margin: auto;
 }
@@ -96,12 +96,23 @@ body {
     justify-content: space-evenly;
     align-items: center;
     align-self: flex-start;
-    margin-bottom: 10vw;
+    margin-bottom: 10vmax;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(128, 128, 0);
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 .dropbtn {
   font-family:'Raleway-Medium';
-  width: 20em;
+  width: 10em;
   font-size: 20px;
   background-color: rgba(128, 128, 0, 0);
   padding: 16px;
@@ -118,9 +129,9 @@ body {
   display: none;
   position: absolute;
   text-align: center;
-  background-color: rgba(128, 128, 0, .5);
+  background-color: rgb(128, 128, 0 );
   z-index: 1;
-  width: 25em;
+  width: 12.5em;
 }
 
 .dropdown-content a {
@@ -129,18 +140,18 @@ body {
   text-decoration: none;
   display: block;
   font-family:'Raleway-Medium';
-  font-size: 1.25vw;
+  font-size: 1.25vmax;
   text-align: center;
 }
 
-.dropdown-content a:hover {background-color: olive}
+.dropdown-content a:hover {background-color: darkolivegreen}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: olive;
+  background-color: darkolivegreen;
 }
 
 
@@ -148,7 +159,7 @@ body {
 .title {
     font-family:'Raleway-Medium', "sans serif";
     color: black;
-    font-size: 4vw;
+    font-size: 4vmax;
     text-align: center;
     margin: auto;
     margin-bottom: .5em;
@@ -225,7 +236,7 @@ p {
     margin-right: auto;
     text-align: center;
     font-family:'Raleway-Medium';
-    font-size: 1.25vw;
+    font-size: 1.25vmax;
     color: whitesmoke;
     text-decoration: none;
 }
